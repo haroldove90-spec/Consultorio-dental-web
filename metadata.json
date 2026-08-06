@@ -1,0 +1,6 @@
+{
+  "name": "Consultorio Dental",
+  "description": "Dashboard clínico dental multinivel con Vista Pública, SuperAdmin SaaS, Panel de Dentista con Odontograma Interactivo y Portal de Pacientes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
