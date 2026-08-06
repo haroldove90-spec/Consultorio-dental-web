@@ -130,10 +130,12 @@ export default function App() {
 
             {currentRole === 'patient' && (
               <PatientPortal
+                activeModule={activeModule}
                 patients={patients}
                 appointments={appointments}
                 payments={payments}
                 onUpdateAppointmentStatus={handleUpdateAppointmentStatus}
+                onAddNewAppointment={handleAddNewAppointment}
               />
             )}
           </div>
